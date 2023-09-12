@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.content{
+  font-size: 100 px;
+}
+</style>
+</head>
+<body bgcolor="pink">
+<div class="content" >
+<button type="button">PROFILE</button>
+<button type="button">BOOKS</button>
+<button type="button">ADDBOOK</button>
+<button type="button">HELP</button>
+<button type="button" >SIGN OUT</button>
+</div>
+
+
+
+</body>
+</html>

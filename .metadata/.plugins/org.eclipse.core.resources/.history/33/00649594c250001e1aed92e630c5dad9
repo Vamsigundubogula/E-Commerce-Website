@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.content {
+  justify-content: center;
+  display: flex;
+  margin: 100px 400px;
+  border: 3px solid blue;
+  padding: 30px;
+  background-color: rgb(208, 205, 248);
+}
+
+</style>
+</head>
+<body bgcolor="pink">
+    <div class="content">
+    <form action="login" method="post" align="center">
+    <h3>UserName : <input type="text" name="uname"></h3>
+    <h3>PassWord : <input type="password" name="pass"></h3>
+    <div class="content1">
+    <form action="login" align="left"><button type="submit">SIGNIN</button></form>
+    <form action="signup.jsp" align="right"><button type="submit">SIGNUP</button></form>
+    </div>
+
+    </form>
+    
+    </div>
+ 
+</body>
+</html>

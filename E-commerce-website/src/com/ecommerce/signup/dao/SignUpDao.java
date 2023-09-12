@@ -1,0 +1,43 @@
+package com.ecommerce.signup.dao;
+
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.ecommerce.signup.action.SignUpAction;
+
+public class SignUpDao {
+	private String sql="insert into signup(RegisterNumber,UserName,PassWord,ConformPassWord)values(?,?,?,?);";
+	private String url="jdbc:mysql://localhost:3306/ecommerce";
+	private String username="root";
+	private String password="Root";
+	private String jdbcDriver="com.mysql.jdbc.Driver";
+	public SignUpDao() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public void SignUpDao(SignUpAction signUpAction) throws  SQLException {
+		Connection con = getConnection();
+		try {
+			Class.forName(jdbcDriver);
+			
+			con = DriverManager.getConnection(url,username,password);
+			PreparedStatement st = con.prepareStatement(sql);
+			st.setString(1,signUpAction.getRegisterNumber());
+			st.setString(2,signUpAction.getUserName());
+			st.setString(3,signUpAction.getPassWord());
+			st.setString(4,signUpAction.getConformPassword());
+			st.executeUpdate();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	private Connection getConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Vamsi\Intership\code\ecommerce\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+899356277.index
+3829578538.index
+2492450887.index
+1834837680.index
+4039969456.index
+1931425398.index
+2047915458.index

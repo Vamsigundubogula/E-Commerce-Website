@@ -1,0 +1,5 @@
+package com.ecommerce.login.dao;
+
+public class LoginDao {
+
+}

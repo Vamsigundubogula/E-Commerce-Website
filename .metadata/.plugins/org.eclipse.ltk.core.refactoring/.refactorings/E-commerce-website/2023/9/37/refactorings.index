@@ -1,0 +1,18 @@
+1694427514547	Delete element
+1694427643689	Rename type 'SignUp'
+1694428656400	Copy package
+1694428668794	Delete element
+1694428689224	Rename package 'com.ecommerce.signup.dao.copy'
+1694428973101	Copy package
+1694428982019	Delete element
+1694429049908	Copy package
+1694429055293	Delete element
+1694429104116	Rename package 'com.ecommerce.signup.action.copy'
+1694429147413	Rename type 'SignUpServlet'
+1694429649135	Move 'login.jsp' to 'WebContent'
+1694436430315	Delete element
+1694438732127	Rename type 'CheckSignUp'
+1694444614984	Copy package
+1694444622975	Delete element
+1694444646680	Rename package 'com.ecommerce.login.copy'
+1694452583897	Move 'profile.jsp' to 'WebContent'

@@ -1,0 +1,16 @@
+package com.ecommerce.login;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/login")
+public class login extends HttpServlet {
+	public void service(HttpServletRequest request,HttpServletResponse response) {
+		String uname = request.getParameter("uname");
+		String pass = request.getParameter("pass");
+		
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.ecommerce.signup.dao;
+
+public class CheckSignUp {
+
+}
